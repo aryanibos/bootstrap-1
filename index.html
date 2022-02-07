@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>212 Mart</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img src="assets/img/212.png" width="120px" height="40px" alt="">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-3">
+                    <li class="nav-item active">
+                        <a class="nav-link mr-1 text-danger" href="#">Beranda <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-1 " href="#">Keanggotaan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-1 " href="#">Berita</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link mr-1  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Program & Promo
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Program 1</a>
+                            <a class="dropdown-item" href="#">Program 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-2 " href="#">Produk & Layanan</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-danger my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Carousel -->
+    <img src="assets/img/alfaku.png" width="1470px" alt="">
+    <!-- End Carousel -->
+
+    <!-- Kategori -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h5 style="font-weight: bold;">Kategori Pilihan</h5>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="assets/img/biru.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-size: 14px;">Elektronik</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="assets/img/merah.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-size: 15px;">Makanan</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="assets/img/biru.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-size: 15px;">Minuman</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="assets/img/merah.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-size: 15px;">Aksesoris</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <span><b style="font-size: large;">TopUp Diamond Game</b> &nbsp; <b style="font-size: small; color: red;">Lihat Semua</b></span>
+                <form class="border p-2">
+                    <ul class="nav nav-tabs pt-1" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Mobile Legends</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Free Fire</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">PUBG Mobile</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="ml" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="form-row p-2 align-items-end">
+                                <div class="form-group col-md-5">
+                                    <label for="inputState"><b> ID Pengguna</b></label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="form-group col-md-5">
+                                    <label for="inputState"><b> Pilih Jumlah </b></label>
+                                    <select id="inputState" class="form-control">
+                                    <option selected></option>
+                                    <option>Pilih 1</option>
+                                    <option>Pilih 2</option>
+                                    <option>Pilih 3</option>
+                                </select>
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <button class="btn btn-danger my-2 my-sm-0 text-white" type="submit">Beli</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Kategori -->
+
+    <!-- Manfaat -->
+    <div class="container mt-5">
+        <h5 style="font-weight: bold;">Manfaat dan Kebaikan Program Keanggotaan</h5>
+        <p align="justify">Sebagai bentuk penghargaan kami kepada konsumen, kami memberikan fasilitas Keanggotaan 212 mart agar pengalaman berbelanja anda semakin berkesan berbagai manfaat dan kebaikan yang kami berikan. Banyak keuntungan yang bisa didapatkan dengan menjadi
+            member 212 mart seperti bonus poin, informasi promo-promo terbaru, potongan harga, undian berhadiah, dan masih banyak lainnya</p>
+        <div class="manfaat mt-5">
+            <div class="row" align="center">
+                <div class="col-md-2">
+                    <img src="assets/img/bonus.png" alt="">
+                    <p>Bonus Poin</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="assets/img/diskon.png" alt="">
+                    <p>Potongan Harga</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="assets/img/kejutan.png" alt="">
+                    <p>Kejutan Ulang Tahun</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="assets/img/promo.png" alt="">
+                    <p>Promo</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="assets/img/merchant.png" alt="">
+                    <p>Diskon Merchant</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="assets/img/undian.png" alt="">
+                    <p>Undian Berhadiah</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- akhir Manfaat -->
+
+    <!-- Program -->
+    <div class="container mt-5">
+        <h5 style="font-weight: bold;">Program 212 Mart Terbaru</h5>
+        <div class="program">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="assets/img/biru.png" height="200px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="program-star-susu-indomilk/index.html" style="color: blue;"> Program Star - Susu Indomilk</a></h5>
+                            <small><p style="color:#6c757d;">Priode 16 Agustus - 20 Oktober 2021</p></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="assets/img/biru.png" height="200px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Program Formula - Kuaci Rebo</h5>
+                            <small><p style="color:#6c757d;">Priode 11 Januari - 12 Februari 2022</p></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Program -->
+
+    <!-- Pengumuman -->
+    <div class="container mt-5">
+        <div class="pengumuman">
+            <div class="row">
+                <div class="col-md-7">
+                    <h5 style="font-weight: bold;padding-top: 100px;">Check Pengumuman Pemenang</h5>
+                    <p align="justify">Sahabat bisa melakukan pengecekan nama pemenang dari setiap program-program 212 mart dengan mencantumkan kode kupon. Apakah kamu yang beruntung memenangkar salah satu program undian di 212 mart? Silahkan di cek ya!</p>
+                    <h5>Program</h5>
+                    <div class="form-group">
+                        <select class="form-control">
+                            <option>Pilih</option>
+                            <option>Opsi 1</option>
+                            <option>Opsi 2</option>
+                        </select>
+                    </div>
+                    <button type="button" class="btn btn-primary">Cek Sekarang</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="assets/img/pemenang.jpg" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Pengumuman -->
+
+    <!-- Footer -->
+    <div class="container-fluid bg-danger">
+        <footer>
+            <div class="container">
+                <div class="row text-white">
+                    <div class="col-md-4 mt-5 mb-5">
+                        <div class="satu">
+                            <img src="assets/img/212.png" width="140px" height="50px" alt="">
+                            <h5>PT Sumber Rejeky Trijaya, Tbk</h5>
+                            <p>jln Mandor Basar no.54 Rangkapan Jaya, <br> Pancoran Mas Depok, Jawa Barat 16435
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5">
+                        <div class="dua">
+                            <h5>Terhubung Bersama Kamu</h5>
+                            <p>Cara Belanja <br>Pembayaran <br> Jaminan Aman </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5">
+                        <div class="tiga">
+                            <h5 class="ml-4">Berlangganan newsletter</h5>
+                            <form class="form-inline my-2 my-lg-0 ml-4">
+                                <input style="border:after #383e43; background-color: transparent;" type="email" class="form-control" id="inputgmail" placeholder="Masukkan Email Anda">
+                                <button class="btn btn-warning my-2 my-sm-0" type="submit"><i class="fa fa-arrow-circle-right text-white"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+    <!-- Akhir Footer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
